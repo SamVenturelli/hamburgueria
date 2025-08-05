@@ -1,0 +1,41 @@
+*{
+    font-family: "Bitcount Prop Single", system-ui;    
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    padding: 0px;
+}
+
+.nav-superior{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    background-color:black
+}
+
+#menu-principal{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: yellow;
+    margin: 0;
+    padding: 0 15px;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    height: 10rem;
+    background-image: url("../img/Burguers.jpg");
+    background-position: center;
+    background-size: cover;
+}
